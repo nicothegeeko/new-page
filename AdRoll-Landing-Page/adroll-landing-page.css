@@ -1,0 +1,313 @@
+#Logo {
+    max-width: 40%;
+    height: auto;
+}
+
+.text {
+    color: #ffc107;
+}
+
+.carousel-indicators {
+    z-index: -1;
+}
+
+body {
+    background-color: #1a78ed;
+
+}
+
+#relieved {
+    width: 100%;
+    height: auto;
+}
+
+.post-content {
+    position: absolute;     
+    transform: translate(-50%, -35%);
+}
+
+h1 {
+    overflow-wrap: break-word;
+    font-size: 2.5vw;
+}
+
+h2 {
+    overflow-wrap: break-word;
+    font-size: 3vw;
+}
+
+h3 {
+    overflow-wrap: break-word;
+    font-size: 2vw;
+}
+
+h6 {
+    overflow-wrap: break-word;
+    font-size: 1.5vw;
+}
+
+nav {
+    z-index: 500;
+}
+
+.real {
+    padding-top: 35%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    
+    font-family: 'Permanent Marker', cursive;
+    color: #1a78ed;
+}
+
+.real:hover {
+    color: #fdc020;
+}
+
+.debtsHappen {
+    font-family: 'Open Sans', sans-serif;
+    color: #fdc020;
+    margin-left: 2%;
+    margin-top: -10%;
+
+}
+
+
+.video {
+    margin-top: .5%;
+    padding-bottom: 1%;
+}
+.arrow {
+    width: 8%;
+    height: 8%;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("Images/relieved-couple.png");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.embed-responsive-item {
+    top: 5%;
+}
+
+
+.container {
+    background: #e3e3e3;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+#test {
+    animation: fadein 3s;
+    -moz-animation: fadein 3s;
+    /* Firefox */
+    -webkit-animation: fadein 3s;
+    /* Safari and Chrome */
+    -o-animation: fadein 3s;
+    /* Opera */
+}
+
+
+.jumbotron {
+    background-color: #175da2!important;
+    margin-top: 5%;
+}
+
+.people {
+    font-family: 'Permanent Marker', cursive;
+    color: #fdc020;
+    text-align: center;
+    
+}
+
+.smallguy {
+    height: 10%;
+
+}
+
+.carousel-item1 {
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+}
+
+
+.top-buffer {
+    margin-top:2%;
+    padding-left: 4%;
+    padding-top:2%;
+   }
+
+.card {
+    background-color: #175da2!important;
+    color:white!important;
+}
+
+.relief {
+    color: #fdc020;
+    text-align: center;
+    background-color: hsla(209, 85%, 56%, 0.86);
+    margin-top: 2%;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 1500px !important;
+}
+
+
+
+.realPeople {
+    width: 750px !important;
+  max-height: 1500px !important;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+/* sm */
+
+@media (min-width: 690px) {
+    body {
+        font-size: .5em important!;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+
+    .bg {
+        background-position: 45%;
+    }
+
+     #navbarText {
+        overflow-wrap: break-word;
+        font-size: 2vw;
+    }
+}
+
+
+
+
+/* md */
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1em;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .real {
+        top: 100%;
+        left: 65%;
+    }
+}
+
+
+
+
+/* lg */
+
+@media (min-width: 992px) {
+    body {
+        font-size: 1em;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .real {
+        top: 15%;
+        left: 65%;
+    }
+
+
+    .bg {
+        background-position: 38%;
+    }
+}
+
+
+
+/* xl */
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1em;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .real {
+        top: 20%;
+        left: 69%;
+    }
+
+     #navbarText {
+        overflow-wrap: break-word;
+        font-size: 1vw;
+    }
+}
