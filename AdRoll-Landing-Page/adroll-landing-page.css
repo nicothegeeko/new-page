@@ -55,9 +55,7 @@ nav {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    
-    
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Kalam', cursive;
     color: #1a78ed;
 }
 
@@ -69,7 +67,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
     color: #fdc020;
     margin-left: 2%;
-    margin-top: -10%;
+    margin-top: -5%;
 
 }
 
@@ -81,6 +79,11 @@ nav {
 .arrow {
     width: 8%;
     height: 8%;
+}
+
+.giph {
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 body,
@@ -121,6 +124,7 @@ html {
     /* Safari and Chrome */
     -o-animation: fadein 3s;
     /* Opera */
+    margin-top: 10%;
 }
 
 
@@ -163,7 +167,19 @@ html {
     color: #fdc020;
     text-align: center;
     background-color: hsla(209, 85%, 56%, 0.86);
-    margin-top: 2%;
+    font-family: 'Kalam', cursive;
+    padding-top: 1%;
+    
+}
+
+.relief2 {
+    color: #fdc020;
+    text-align: center;
+    background-color: hsla(209, 85%, 56%, 0.86);
+    font-family: 'Kalam', cursive;
+    padding-top: 2%;
+    margin-top: 5%;
+    
 }
 
 .carousel-inner{
@@ -175,10 +191,15 @@ html {
 
 .realPeople {
     width: 750px !important;
-  max-height: 1500px !important;
+    max-height: 1500px !important;
    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#button1 {
+    margin-top: 10%;
+    margin-left: 15%;
 }
 
 
@@ -247,6 +268,7 @@ html {
         overflow-wrap: break-word;
         font-size: 2vw;
     }
+
 }
 
 
