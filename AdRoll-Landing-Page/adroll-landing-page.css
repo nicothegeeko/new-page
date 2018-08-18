@@ -202,6 +202,10 @@ html {
     margin-left: 15%;
 }
 
+.cardImage {
+    size: 200px!important;
+}
+
 
 @keyframes fadein {
     from {
