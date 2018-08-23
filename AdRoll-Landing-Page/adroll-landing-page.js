@@ -2,7 +2,7 @@
   alert( "Handler for .click() called." );
 });*/
 
-$(document).ready(function(){  
+$(document).ready(function(){
 
 function startExploring() {
         $(".button1").click(function() {
@@ -13,9 +13,8 @@ function startExploring() {
 
 };
 
+$('.carousel').carousel({
+  interval: 2000
+})
 
 }
-
-
-
-

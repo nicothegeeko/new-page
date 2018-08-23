@@ -22,7 +22,7 @@ body {
 }
 
 .post-content {
-    position: absolute;     
+    position: absolute;
     transform: translate(-50%, -35%);
 }
 
@@ -137,18 +137,12 @@ html {
     font-family: 'Permanent Marker', cursive;
     color: #fdc020;
     text-align: center;
-    
+
 }
 
 .smallguy {
     height: 10%;
 
-}
-
-.carousel-item1 {
-    border-radius: 50%;
-    height: 25%;
-    width: 25%;
 }
 
 
@@ -169,7 +163,7 @@ html {
     background-color: hsla(209, 85%, 56%, 0.86);
     font-family: 'Kalam', cursive;
     padding-top: 1%;
-    
+
 }
 
 .relief2 {
@@ -179,20 +173,14 @@ html {
     font-family: 'Kalam', cursive;
     padding-top: 2%;
     margin-top: 5%;
-    
-}
 
-.carousel-inner{
-  width:100%;
-  max-height: 1500px !important;
 }
-
 
 
 .realPeople {
-    width: 750px !important;
-    max-height: 1500px !important;
-   display: block;
+    width: 25% !important;
+    max-height: 25% !important;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -215,6 +203,10 @@ html {
 }
 .span4 .img-right {
     float: right;
+}
+
+.carousel-caption {
+  background-color:rgba(38, 12, 12, 0.37);
 }
 
 
