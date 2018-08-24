@@ -209,6 +209,15 @@ html {
   background-color:rgba(38, 12, 12, 0.37);
 }
 
+.float-text {
+  float: left;
+}
+
+.anime {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 @keyframes fadein {
     from {
