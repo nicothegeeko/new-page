@@ -176,6 +176,16 @@ html {
 
 }
 
+.relief3 {
+    color: #fdc020;
+    text-align: left;
+    background-color: hsla(209, 85%, 56%, 0.86);
+    font-family: 'Kalam', cursive;
+    padding-top: 2%;
+    margin-top: 0%;
+
+}
+
 
 .realPeople {
     width: 25% !important;
@@ -222,6 +232,15 @@ html {
 .video-bottom {
     margin-bottom: 2%;
     padding-bottom: 2%;
+}
+
+#debt-types {
+    text-indent: 20%;
+}
+
+#on-phone {
+    
+    padding-bottom: 5%;
 }
 
 
@@ -332,6 +351,8 @@ html {
     .bg {
         background-position: 38%;
     }
+
+    
 }
 
 
@@ -354,4 +375,6 @@ html {
         overflow-wrap: break-word;
         font-size: 1vw;
     }
+
+    
 }
