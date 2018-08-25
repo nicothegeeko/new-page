@@ -227,6 +227,7 @@ html {
 .anime {
   padding-left: 5%;
   color: #fdc020;
+  font-family: 'Kalam', cursive;
   
 }
 
@@ -242,6 +243,20 @@ html {
 #on-phone {
     
     padding-bottom: 5%;
+}
+
+.btn-block:hover
+{
+background-image:none !important;
+background-color:#ffdd87 !important;
+}
+
+
+.btn-block {
+    margin-bottom: 5%;
+    background-color: #fdc020!important;
+    color: #1a78ed!important;
+    font-family: 'Kalam', cursive;
 }
 
 
