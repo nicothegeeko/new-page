@@ -104,6 +104,7 @@ html {
     /* Full height */
     height: 100%;
 
+
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -327,7 +328,8 @@ background-color:#ffdd87 !important;
 
 
     .bg {
-        background-position: 45%;
+        
+
     }
 
      #navbarText {
@@ -373,9 +375,7 @@ background-color:#ffdd87 !important;
     }
 
 
-    .bg {
-        background-position: 38%;
-    }
+    
 
     
 }
