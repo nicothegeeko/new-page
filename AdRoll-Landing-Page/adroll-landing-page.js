@@ -1,20 +1,10 @@
-/*$( "#button1" ).click(function() {
-  alert( "Handler for .click() called." );
-});*/
+$( document ).ready(function() {
+    console.log( "ready!" );
 
-$(document).ready(function(){
 
-function startExploring() {
-        $(".button1").click(function() {
-            $(this).hide(2000, function() {
-                $(this).remove();
-            });
-        });
-
-};
-
-$('.carousel').carousel({
-  interval: 2000
-})
-
-}
+	$(function(){
+    $('.btn').click(function(){
+        window.location='https://www.debtreliefcenter.org/l/Debt-Relief/'
+    });
+});
+});
